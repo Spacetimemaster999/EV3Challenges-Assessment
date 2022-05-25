@@ -1,0 +1,4 @@
+while True:
+    robot.drive(100,0)
+    if touch.pressed() == True:
+        brake()
