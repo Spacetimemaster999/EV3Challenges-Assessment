@@ -1,0 +1,6 @@
+while True:
+    robot.drive(200, 0)
+    while ultra.distance() > 300:
+        wait(10)
+    robot.straight(-150)
+    robot.turn(130)
