@@ -1,0 +1,4 @@
+while True:
+    robot.straight(50)
+    if gyro.angle() >= 13
+        robot.straight(100)
