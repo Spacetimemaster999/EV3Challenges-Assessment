@@ -1,0 +1,9 @@
+while True:
+    if colour.reflection() >= 20:
+        robot.straight(50)   
+    if ultra.distance() < 200:
+        robot.straight(-50)
+        robot.turn(90)
+    if colour.reflection() <= 20:
+        robot.straight(-50)
+        robot.turn(90)
